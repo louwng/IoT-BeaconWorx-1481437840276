@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-BeaconWorx
+  host: IoT-BeaconWorx
+  disk_quota: 1024M
+  services:
+  - IoT-BeaconWorx-cloudantNoSQLDB
+  - IoT-BeaconWorx-iotf-service
